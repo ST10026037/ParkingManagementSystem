@@ -1,0 +1,33 @@
+[
+  {
+    "id": "mall_gateway",
+    "name": "Gateway Theatre of Shopping",
+    "location": "Umhlanga, Durban",
+    "capacity": 250,
+    "pricing_type": "flat",
+    "pricing_config": {
+      "flat_rate": 15.0
+    }
+  },
+  {
+    "id": "mall_pavilion",
+    "name": "Pavilion Shopping Centre",
+    "location": "Westville, Durban",
+    "capacity": 180,
+    "pricing_type": "hourly",
+    "pricing_config": {
+      "hourly_rate": 10.0
+    }
+  },
+  {
+    "id": "mall_lucia",
+    "name": "La Lucia Mall",
+    "location": "La Lucia, Durban",
+    "capacity": 150,
+    "pricing_type": "capped_hourly",
+    "pricing_config": {
+      "hourly_rate": 12.0,
+      "daily_cap": 60.0
+    }
+  }
+]
