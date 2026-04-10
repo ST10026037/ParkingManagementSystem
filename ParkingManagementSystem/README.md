@@ -1,10 +1,10 @@
-# 🅿️ KZN Smart Mall Parking Management System
+# KZN Smart Mall Parking Management System
 
 A command-line parking management system built in **Python**, designed to standardise parking operations across multiple KwaZulu-Natal shopping malls. Data is stored in **JSON files** and persists between sessions.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [How to Run the System](#how-to-run-the-system)
 - [Login Credentials](#login-credentials)
@@ -21,7 +21,7 @@ A command-line parking management system built in **Python**, designed to standa
 
 ---
 
-## ▶️ How to Run the System
+## How to Run the System
 
 ### Requirements
 - **Python 3.10 or higher** must be installed
@@ -55,7 +55,7 @@ All data is saved automatically and will be there the next time you run the syst
 
 ---
 
-## 🔑 Login Credentials
+## Login Credentials
 
 These accounts are pre-loaded and ready to use immediately:
 
@@ -72,7 +72,7 @@ These accounts are pre-loaded and ready to use immediately:
 
 ---
 
-## 🏬 Shopping Malls & Pricing
+## Shopping Malls & Pricing
 
 The system manages three KwaZulu-Natal shopping malls, each with its own pricing policy:
 
@@ -94,7 +94,7 @@ The system manages three KwaZulu-Natal shopping malls, each with its own pricing
 
 ---
 
-## 👤 User Roles & Features
+## User Roles & Features
 
 ### Customer
 
@@ -170,7 +170,7 @@ The owner has access to **data across all malls**:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system is built with clean **Object-Oriented Design** and uses the **Strategy Pattern** for pricing.
 
@@ -194,7 +194,7 @@ main.py
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 ParkingManagementSystem/
@@ -232,7 +232,7 @@ ParkingManagementSystem/
 
 ---
 
-## 💾 Data Storage
+## Data Storage
 
 All data is stored as **JSON files** in the `data/` folder. The files are created automatically — you do not need to create them manually.
 
@@ -248,7 +248,7 @@ Data is saved after **every action** (entry, exit, payment, registration) so not
 
 ---
 
-## 💡 Pricing Strategy Design
+## Pricing Strategy Design
 
 The system uses the **Strategy design pattern** to keep pricing logic separate and extensible.
 
@@ -282,7 +282,7 @@ PRICING_CLASSES = {
 
 ---
 
-## 🧪 Running the Tests
+## Running the Tests
 
 An automated test script verifies all system components:
 
@@ -308,7 +308,7 @@ Results: 71/71 tests passed  --  ALL TESTS PASSED
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Passwords are hashed using **SHA-256** before being stored — plain-text passwords are never saved to disk
 - The system prevents a customer from having two active sessions at the same mall simultaneously
